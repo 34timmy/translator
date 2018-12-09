@@ -1,6 +1,6 @@
-#Test task
-##App use Yandex Translator API 
-###Start
+# Test task
+## App use Yandex Translator API 
+### Start
 
 
 **To launch the project you need:**
@@ -15,7 +15,7 @@
 3) In "target" folder open console
 4) Run java -jar translator-1.jar in console
 
-###Testing
+### Testing
 - Open in browser ***[http://localhost:8080/swagger-ui.html](http://localhost:8080/swagger-ui.html)***
 - Expand tab 'Translator'
 - Push ***'Try it out'*** on some method
@@ -30,7 +30,7 @@
  - Get */changeKey*
     - **key** *String*: Special key from YT API 
 
-###Configs:
+### Configs:
 You can customize theese values(otherwise they have default values):
 - ~~Base URL ***--api.url="value"***~~
 - Key ***--api.key="Your key from YT"***
