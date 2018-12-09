@@ -1,0 +1,633 @@
+2018-12-09 20:16:14 [background-preinit] INFO :: HV000001: Hibernate Validator 6.0.13.Final
+2018-12-09 20:16:16 [restartedMain] ERROR:: Application run failed
+java.lang.IllegalStateException: java.io.FileNotFoundException: D:\home\xyz\log4j.properties (Системе не удается найти указанный путь)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:305)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initialize(LoggingApplicationListener.java:266)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEnvironmentPreparedEvent(LoggingApplicationListener.java:229)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEvent(LoggingApplicationListener.java:202)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:127)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:75)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:54)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:347)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:306)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1260)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1248)
+	at com.tf.translator.TranslatorApplication.main(TranslatorApplication.java:10)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.io.FileNotFoundException: D:\home\xyz\log4j.properties (Системе не удается найти указанный путь)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at sun.net.www.protocol.file.FileURLConnection.connect(FileURLConnection.java:90)
+	at sun.net.www.protocol.file.FileURLConnection.getInputStream(FileURLConnection.java:188)
+	at java.net.URL.openStream(URL.java:1045)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:297)
+	... 19 more
+2018-12-09 20:16:42 [background-preinit] INFO :: HV000001: Hibernate Validator 6.0.13.Final
+2018-12-09 20:16:45 [restartedMain] ERROR:: Application run failed
+java.lang.IllegalStateException: java.io.FileNotFoundException: D:\java\translator\log4j.properties (Не удается найти указанный файл)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:305)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initialize(LoggingApplicationListener.java:266)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEnvironmentPreparedEvent(LoggingApplicationListener.java:229)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEvent(LoggingApplicationListener.java:202)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:127)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:75)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:54)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:347)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:306)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1260)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1248)
+	at com.tf.translator.TranslatorApplication.main(TranslatorApplication.java:10)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.io.FileNotFoundException: D:\java\translator\log4j.properties (Не удается найти указанный файл)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at sun.net.www.protocol.file.FileURLConnection.connect(FileURLConnection.java:90)
+	at sun.net.www.protocol.file.FileURLConnection.getInputStream(FileURLConnection.java:188)
+	at java.net.URL.openStream(URL.java:1045)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:297)
+	... 19 more
+2018-12-09 20:17:21 [background-preinit] INFO :: HV000001: Hibernate Validator 6.0.13.Final
+2018-12-09 20:17:21 [restartedMain] INFO :: Starting TranslatorApplication on DESKTOP-C63L1I2 with PID 4448 (D:\java\translator\target\classes started by Timur in D:\java\translator)
+2018-12-09 20:17:21 [restartedMain] INFO :: No active profile set, falling back to default profiles: default
+2018-12-09 20:17:21 [restartedMain] INFO :: Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2018-12-09 20:17:21 [restartedMain] INFO :: For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2018-12-09 20:17:24 [restartedMain] INFO :: Tomcat initialized with port(s): 8080 (http)
+2018-12-09 20:17:24 [restartedMain] INFO :: Root WebApplicationContext: initialization completed in 2588 ms
+2018-12-09 20:17:24 [restartedMain] INFO :: Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2018-12-09 20:17:25 [restartedMain] INFO :: Initializing ExecutorService 'applicationTaskExecutor'
+2018-12-09 20:17:25 [restartedMain] INFO :: LiveReload server is running on port 35729
+2018-12-09 20:17:25 [restartedMain] INFO :: Context refreshed
+2018-12-09 20:17:25 [restartedMain] INFO :: Found 1 custom documentation plugin(s)
+2018-12-09 20:17:25 [restartedMain] INFO :: Scanning for api listing references
+2018-12-09 20:17:25 [restartedMain] INFO :: Tomcat started on port(s): 8080 (http) with context path ''
+2018-12-09 20:17:25 [restartedMain] INFO :: Started TranslatorApplication in 4.665 seconds (JVM running for 6.212)
+2018-12-09 20:17:33 [http-nio-8080-exec-1] INFO :: Initializing Servlet 'dispatcherServlet'
+2018-12-09 20:17:33 [http-nio-8080-exec-1] INFO :: Completed initialization in 12 ms
+2018-12-09 20:17:33 [http-nio-8080-exec-1] INFO :: Translate (ru => en): Каждый человек в определенные периоды своей жизни по-своему ощущает время. Многие из вас согласятся с тем, что «счастливые часов не наблюдают»
+2018-12-09 20:17:34 [http-nio-8080-exec-1] INFO :: Translated result: in its own way feels in certain his time. you with Many agree what Each those periods life people see" "happy hours from not
+2018-12-09 20:41:58 [http-nio-8080-exec-4] INFO :: Translate (ru => en): in its own way feels in certain his time. you with Many agree what Each those periods life people see" "happy hours from not
+2018-12-09 20:41:58 [http-nio-8080-exec-4] INFO :: Translated result: his you its in in way certain with what own feels agree people Each "happy not time. Many see" periods those life hours from
+2018-12-09 20:42:28 [http-nio-8080-exec-3] INFO :: Translate (ru => ene): in its own way feels in certain his time. you with Many agree what Each those periods life people see" "happy hours from not
+2018-12-09 20:42:33 [http-nio-8080-exec-5] INFO :: Translate (ru => es): in its own way feels in certain his time. you with Many agree what Each those periods life people see" "happy hours from not
+2018-12-09 20:42:33 [http-nio-8080-exec-5] INFO :: Translated result: way time. his its you certain own Many Each periods in feels in see" agree what with from people those life hours not "happy
+2018-12-09 20:42:41 [http-nio-8080-exec-6] INFO :: Translate (en => es): in its own way feels in certain his time. you with Many agree what Each those periods life people see" "happy hours from not
+2018-12-09 20:42:41 [http-nio-8080-exec-6] INFO :: Translated result: propio en usted su de acuerdo en camino su con Muchos tiempo. ? ciertos Cada la vida horas no se siente los periodos de aquellos la gente ver" "feliz de
+2018-12-09 20:42:53 [http-nio-8080-exec-8] INFO :: Translate (ens => es): in its own way feels in certain his time. you with Many agree what Each those periods life people see" "happy hours from not
+2018-12-09 20:52:24 [main] INFO :: Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.tf.translator.TranslatorApplicationTests], using SpringBootContextLoader
+2018-12-09 20:52:24 [main] INFO :: Could not detect default resource locations for test class [com.tf.translator.TranslatorApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2018-12-09 20:52:24 [main] INFO :: Could not detect default configuration classes for test class [com.tf.translator.TranslatorApplicationTests]: TranslatorApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2018-12-09 20:52:25 [main] INFO :: Found @SpringBootConfiguration com.tf.translator.TranslatorApplication for test class com.tf.translator.TranslatorApplicationTests
+2018-12-09 20:52:25 [main] INFO :: Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2018-12-09 20:52:25 [main] INFO :: Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@49ec71f8, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@1d2adfbe, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@36902638, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@223d2c72, org.springframework.test.context.support.DirtiesContextTestExecutionListener@8f4ea7c, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@436813f3, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@74fe5c40, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@3febb011, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@10e31a9a, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@131774fe]
+2018-12-09 20:52:25 [background-preinit] INFO :: HV000001: Hibernate Validator 6.0.13.Final
+2018-12-09 20:52:25 [main] INFO :: Starting TranslatorApplicationTests on DESKTOP-C63L1I2 with PID 2436 (started by Timur in D:\java\translator)
+2018-12-09 20:52:25 [main] INFO :: No active profile set, falling back to default profiles: default
+2018-12-09 20:52:29 [main] INFO :: Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2018-12-09 20:52:31 [main] INFO :: Initializing ExecutorService 'applicationTaskExecutor'
+2018-12-09 20:52:32 [main] INFO :: Context refreshed
+2018-12-09 20:52:32 [main] INFO :: Found 1 custom documentation plugin(s)
+2018-12-09 20:52:32 [main] INFO :: Scanning for api listing references
+2018-12-09 20:52:33 [main] INFO :: Started TranslatorApplicationTests in 8.267 seconds (JVM running for 9.524)
+2018-12-09 20:52:34 [Thread-3] INFO :: Shutting down ExecutorService 'applicationTaskExecutor'
+2018-12-09 20:53:27 [main] INFO :: Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.tf.translator.TranslatorApplicationTests], using SpringBootContextLoader
+2018-12-09 20:53:27 [main] INFO :: Could not detect default resource locations for test class [com.tf.translator.TranslatorApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2018-12-09 20:53:27 [main] INFO :: Could not detect default configuration classes for test class [com.tf.translator.TranslatorApplicationTests]: TranslatorApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2018-12-09 20:53:27 [main] INFO :: Found @SpringBootConfiguration com.tf.translator.TranslatorApplication for test class com.tf.translator.TranslatorApplicationTests
+2018-12-09 20:53:27 [main] INFO :: Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2018-12-09 20:53:27 [main] INFO :: Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@16d04d3d, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@49ec71f8, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@1d2adfbe, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@36902638, org.springframework.test.context.support.DirtiesContextTestExecutionListener@223d2c72, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@8f4ea7c, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@436813f3, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@74fe5c40, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@3febb011, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@10e31a9a]
+2018-12-09 20:53:27 [background-preinit] INFO :: HV000001: Hibernate Validator 6.0.13.Final
+2018-12-09 20:53:28 [main] INFO :: Starting TranslatorApplicationTests on DESKTOP-C63L1I2 with PID 8840 (started by Timur in D:\java\translator)
+2018-12-09 20:53:28 [main] INFO :: No active profile set, falling back to default profiles: default
+2018-12-09 20:53:31 [main] INFO :: Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2018-12-09 20:53:31 [main] INFO :: Initializing ExecutorService 'applicationTaskExecutor'
+2018-12-09 20:53:32 [main] INFO :: Context refreshed
+2018-12-09 20:53:32 [main] INFO :: Found 1 custom documentation plugin(s)
+2018-12-09 20:53:32 [main] INFO :: Scanning for api listing references
+2018-12-09 20:53:32 [main] INFO :: Started TranslatorApplicationTests in 4.723 seconds (JVM running for 5.767)
+2018-12-09 20:53:32 [Thread-3] INFO :: Shutting down ExecutorService 'applicationTaskExecutor'
+2018-12-09 20:55:30 [main] INFO :: Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.tf.translator.TranslatorApplicationTests], using SpringBootContextLoader
+2018-12-09 20:55:30 [main] INFO :: Could not detect default resource locations for test class [com.tf.translator.TranslatorApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2018-12-09 20:55:30 [main] INFO :: Could not detect default configuration classes for test class [com.tf.translator.TranslatorApplicationTests]: TranslatorApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2018-12-09 20:55:31 [main] INFO :: Found @SpringBootConfiguration com.tf.translator.TranslatorApplication for test class com.tf.translator.TranslatorApplicationTests
+2018-12-09 20:55:31 [main] INFO :: Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2018-12-09 20:55:31 [main] INFO :: Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@16d04d3d, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@49ec71f8, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@1d2adfbe, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@36902638, org.springframework.test.context.support.DirtiesContextTestExecutionListener@223d2c72, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@8f4ea7c, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@436813f3, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@74fe5c40, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@3febb011, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@10e31a9a]
+2018-12-09 20:55:31 [background-preinit] INFO :: HV000001: Hibernate Validator 6.0.13.Final
+2018-12-09 20:55:31 [main] INFO :: Starting TranslatorApplicationTests on DESKTOP-C63L1I2 with PID 4784 (started by Timur in D:\java\translator)
+2018-12-09 20:55:31 [main] INFO :: No active profile set, falling back to default profiles: default
+2018-12-09 20:55:36 [main] INFO :: Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2018-12-09 20:55:37 [main] INFO :: Initializing ExecutorService 'applicationTaskExecutor'
+2018-12-09 20:55:37 [main] INFO :: Context refreshed
+2018-12-09 20:55:37 [main] INFO :: Found 1 custom documentation plugin(s)
+2018-12-09 20:55:37 [main] INFO :: Scanning for api listing references
+2018-12-09 20:55:38 [main] INFO :: Started TranslatorApplicationTests in 6.854 seconds (JVM running for 8.02)
+2018-12-09 20:55:38 [Thread-3] INFO :: Shutting down ExecutorService 'applicationTaskExecutor'
+2018-12-09 20:56:17 [main] INFO :: Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.tf.translator.TranslatorApplicationTests], using SpringBootContextLoader
+2018-12-09 20:56:17 [main] INFO :: Could not detect default resource locations for test class [com.tf.translator.TranslatorApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2018-12-09 20:56:17 [main] INFO :: Could not detect default configuration classes for test class [com.tf.translator.TranslatorApplicationTests]: TranslatorApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2018-12-09 20:56:17 [main] INFO :: Found @SpringBootConfiguration com.tf.translator.TranslatorApplication for test class com.tf.translator.TranslatorApplicationTests
+2018-12-09 20:56:17 [main] INFO :: Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2018-12-09 20:56:17 [main] INFO :: Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@16d04d3d, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@49ec71f8, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@1d2adfbe, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@36902638, org.springframework.test.context.support.DirtiesContextTestExecutionListener@223d2c72, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@8f4ea7c, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@436813f3, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@74fe5c40, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@3febb011, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@10e31a9a]
+2018-12-09 20:56:17 [background-preinit] INFO :: HV000001: Hibernate Validator 6.0.13.Final
+2018-12-09 20:56:18 [main] INFO :: Starting TranslatorApplicationTests on DESKTOP-C63L1I2 with PID 9088 (started by Timur in D:\java\translator)
+2018-12-09 20:56:18 [main] INFO :: No active profile set, falling back to default profiles: default
+2018-12-09 20:56:21 [main] INFO :: Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2018-12-09 20:56:21 [main] INFO :: Initializing ExecutorService 'applicationTaskExecutor'
+2018-12-09 20:56:22 [main] INFO :: Context refreshed
+2018-12-09 20:56:22 [main] INFO :: Found 1 custom documentation plugin(s)
+2018-12-09 20:56:22 [main] INFO :: Scanning for api listing references
+2018-12-09 20:56:22 [main] INFO :: Started TranslatorApplicationTests in 4.792 seconds (JVM running for 5.828)
+2018-12-09 20:56:22 [Thread-3] INFO :: Shutting down ExecutorService 'applicationTaskExecutor'
+2018-12-09 21:13:10 [background-preinit] INFO :: HV000001: Hibernate Validator 6.0.13.Final
+2018-12-09 21:13:10 [restartedMain] INFO :: Starting TranslatorApplication on DESKTOP-C63L1I2 with PID 11248 (D:\java\translator\target\classes started by Timur in D:\java\translator)
+2018-12-09 21:13:10 [restartedMain] INFO :: No active profile set, falling back to default profiles: default
+2018-12-09 21:13:10 [restartedMain] INFO :: Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2018-12-09 21:13:10 [restartedMain] INFO :: For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2018-12-09 21:13:12 [restartedMain] INFO :: Tomcat initialized with port(s): 8080 (http)
+2018-12-09 21:13:13 [restartedMain] INFO :: Root WebApplicationContext: initialization completed in 2507 ms
+2018-12-09 21:13:13 [restartedMain] INFO :: Autowired annotation is not supported on static fields: private static java.lang.String com.tf.translator.service.TranslatorServiceImpl.DEFAULT_ENCODING
+2018-12-09 21:13:13 [restartedMain] INFO :: Autowired annotation is not supported on static fields: private static java.lang.String com.tf.translator.service.TranslatorServiceImpl.DEFAULT_KEY
+2018-12-09 21:13:13 [restartedMain] INFO :: Autowired annotation is not supported on static fields: private static java.lang.String com.tf.translator.service.TranslatorServiceImpl.DEFAULT_URL
+2018-12-09 21:13:13 [restartedMain] INFO :: Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2018-12-09 21:13:13 [restartedMain] INFO :: Initializing ExecutorService 'applicationTaskExecutor'
+2018-12-09 21:13:13 [restartedMain] INFO :: LiveReload server is running on port 35729
+2018-12-09 21:13:13 [restartedMain] INFO :: Context refreshed
+2018-12-09 21:13:13 [restartedMain] INFO :: Found 1 custom documentation plugin(s)
+2018-12-09 21:13:13 [restartedMain] INFO :: Scanning for api listing references
+2018-12-09 21:13:14 [restartedMain] INFO :: Tomcat started on port(s): 8080 (http) with context path ''
+2018-12-09 21:13:14 [restartedMain] INFO :: Started TranslatorApplication in 4.17 seconds (JVM running for 5.381)
+2018-12-09 21:14:05 [http-nio-8080-exec-1] INFO :: Initializing Servlet 'dispatcherServlet'
+2018-12-09 21:14:05 [http-nio-8080-exec-1] INFO :: Completed initialization in 8 ms
+2018-12-09 21:14:28 [http-nio-8080-exec-1] INFO :: Translate (ru => en): Текст
+2018-12-09 21:14:28 [pool-1-thread-1] ERROR:: Error in request: 
+java.lang.NullPointerException: charsetName
+	at java.net.URLEncoder.encode(URLEncoder.java:209)
+	at com.tf.translator.service.TranslatorServiceImpl.translateWord(TranslatorServiceImpl.java:63)
+	at com.tf.translator.service.TranslatorServiceImpl.lambda$null$0(TranslatorServiceImpl.java:42)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2018-12-09 21:14:28 [http-nio-8080-exec-1] INFO :: Translated result: Текст
+2018-12-09 21:14:51 [http-nio-8080-exec-2] INFO :: Translate (ru => en): Текст
+2018-12-09 21:14:51 [pool-1-thread-2] ERROR:: Error in request: 
+java.lang.NullPointerException: charsetName
+	at java.net.URLEncoder.encode(URLEncoder.java:209)
+	at com.tf.translator.service.TranslatorServiceImpl.translateWord(TranslatorServiceImpl.java:63)
+	at com.tf.translator.service.TranslatorServiceImpl.lambda$null$0(TranslatorServiceImpl.java:42)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2018-12-09 21:14:51 [http-nio-8080-exec-2] INFO :: Translated result: Текст
+2018-12-09 21:16:10 [http-nio-8080-exec-10] INFO :: Translate (ru => en): Текст
+2018-12-09 21:16:10 [pool-1-thread-3] ERROR:: Error in request: 
+java.lang.NullPointerException: charsetName
+	at java.net.URLEncoder.encode(URLEncoder.java:209)
+	at com.tf.translator.service.TranslatorServiceImpl.translateWord(TranslatorServiceImpl.java:63)
+	at com.tf.translator.service.TranslatorServiceImpl.lambda$null$0(TranslatorServiceImpl.java:42)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2018-12-09 21:16:10 [http-nio-8080-exec-10] INFO :: Translated result: Текст
+2018-12-09 21:17:05 [background-preinit] INFO :: HV000001: Hibernate Validator 6.0.13.Final
+2018-12-09 21:17:05 [restartedMain] INFO :: Starting TranslatorApplication on DESKTOP-C63L1I2 with PID 10728 (D:\java\translator\target\classes started by Timur in D:\java\translator)
+2018-12-09 21:17:05 [restartedMain] INFO :: No active profile set, falling back to default profiles: default
+2018-12-09 21:17:05 [restartedMain] INFO :: Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2018-12-09 21:17:05 [restartedMain] INFO :: For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2018-12-09 21:17:08 [restartedMain] INFO :: Tomcat initialized with port(s): 8080 (http)
+2018-12-09 21:17:08 [restartedMain] INFO :: Root WebApplicationContext: initialization completed in 2823 ms
+2018-12-09 21:17:08 [restartedMain] INFO :: Autowired annotation is not supported on static fields: private static java.lang.String com.tf.translator.service.TranslatorServiceImpl.DEFAULT_ENCODING
+2018-12-09 21:17:08 [restartedMain] INFO :: Autowired annotation is not supported on static fields: private static java.lang.String com.tf.translator.service.TranslatorServiceImpl.DEFAULT_KEY
+2018-12-09 21:17:08 [restartedMain] INFO :: Autowired annotation is not supported on static fields: private static java.lang.String com.tf.translator.service.TranslatorServiceImpl.DEFAULT_URL
+2018-12-09 21:17:09 [restartedMain] INFO :: Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2018-12-09 21:17:09 [restartedMain] INFO :: Initializing ExecutorService 'applicationTaskExecutor'
+2018-12-09 21:17:09 [restartedMain] INFO :: LiveReload server is running on port 35729
+2018-12-09 21:17:09 [restartedMain] INFO :: Context refreshed
+2018-12-09 21:17:09 [restartedMain] INFO :: Found 1 custom documentation plugin(s)
+2018-12-09 21:17:09 [restartedMain] INFO :: Scanning for api listing references
+2018-12-09 21:17:10 [restartedMain] INFO :: Tomcat started on port(s): 8080 (http) with context path ''
+2018-12-09 21:17:10 [restartedMain] INFO :: Started TranslatorApplication in 4.927 seconds (JVM running for 6.418)
+2018-12-09 21:17:14 [http-nio-8080-exec-1] INFO :: Initializing Servlet 'dispatcherServlet'
+2018-12-09 21:17:14 [http-nio-8080-exec-1] INFO :: Completed initialization in 10 ms
+2018-12-09 21:17:14 [http-nio-8080-exec-1] INFO :: Translate (ru => en): Текст
+2018-12-09 21:17:14 [pool-1-thread-1] ERROR:: Error in request: 
+java.lang.NullPointerException: charsetName
+	at java.net.URLEncoder.encode(URLEncoder.java:209)
+	at com.tf.translator.service.TranslatorServiceImpl.translateWord(TranslatorServiceImpl.java:63)
+	at com.tf.translator.service.TranslatorServiceImpl.lambda$null$0(TranslatorServiceImpl.java:42)
+	at java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:266)
+	at java.util.concurrent.FutureTask.run(FutureTask.java)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:266)
+	at java.util.concurrent.FutureTask.run(FutureTask.java)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2018-12-09 21:17:14 [http-nio-8080-exec-1] INFO :: Translated result: Текст
+2018-12-09 21:18:28 [http-nio-8080-exec-3] INFO :: Translate (ru => en): Текст
+2018-12-09 21:18:57 [pool-1-thread-2] ERROR:: Error in request: 
+java.lang.NullPointerException: charsetName
+	at java.net.URLEncoder.encode(URLEncoder.java:209)
+	at com.tf.translator.service.TranslatorServiceImpl.translateWord(TranslatorServiceImpl.java:63)
+	at com.tf.translator.service.TranslatorServiceImpl.lambda$null$0(TranslatorServiceImpl.java:42)
+	at java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:266)
+	at java.util.concurrent.FutureTask.run(FutureTask.java)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:266)
+	at java.util.concurrent.FutureTask.run(FutureTask.java)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2018-12-09 21:18:57 [http-nio-8080-exec-3] INFO :: Translated result: Текст
+2018-12-09 21:19:05 [background-preinit] INFO :: HV000001: Hibernate Validator 6.0.13.Final
+2018-12-09 21:19:06 [restartedMain] INFO :: Starting TranslatorApplication on DESKTOP-C63L1I2 with PID 7420 (D:\java\translator\target\classes started by Timur in D:\java\translator)
+2018-12-09 21:19:06 [restartedMain] INFO :: No active profile set, falling back to default profiles: default
+2018-12-09 21:19:06 [restartedMain] INFO :: Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2018-12-09 21:19:06 [restartedMain] INFO :: For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2018-12-09 21:19:08 [restartedMain] INFO :: Tomcat initialized with port(s): 8080 (http)
+2018-12-09 21:19:08 [restartedMain] INFO :: Root WebApplicationContext: initialization completed in 2675 ms
+2018-12-09 21:19:09 [restartedMain] INFO :: Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2018-12-09 21:19:09 [restartedMain] INFO :: Initializing ExecutorService 'applicationTaskExecutor'
+2018-12-09 21:19:09 [restartedMain] INFO :: LiveReload server is running on port 35729
+2018-12-09 21:19:09 [restartedMain] INFO :: Context refreshed
+2018-12-09 21:19:09 [restartedMain] INFO :: Found 1 custom documentation plugin(s)
+2018-12-09 21:19:09 [restartedMain] INFO :: Scanning for api listing references
+2018-12-09 21:19:10 [restartedMain] INFO :: Tomcat started on port(s): 8080 (http) with context path ''
+2018-12-09 21:19:10 [restartedMain] INFO :: Started TranslatorApplication in 4.658 seconds (JVM running for 6.192)
+2018-12-09 21:19:24 [http-nio-8080-exec-1] INFO :: Initializing Servlet 'dispatcherServlet'
+2018-12-09 21:19:24 [http-nio-8080-exec-1] INFO :: Completed initialization in 16 ms
+2018-12-09 21:19:24 [http-nio-8080-exec-1] INFO :: Translate (ru => en): Текст
+2018-12-09 21:19:29 [http-nio-8080-exec-1] INFO :: Translated result: Text
+2018-12-09 21:19:34 [http-nio-8080-exec-2] INFO :: New key: new Key
+2018-12-09 21:19:44 [http-nio-8080-exec-3] INFO :: Translate (ru => en): Текст
+2018-12-09 21:20:25 [pool-1-thread-2] ERROR:: Error in request: 
+java.io.IOException: Server returned HTTP response code: 400 for URL: https://translate.yandex.net/api/v1.5/tr.json/translate?new Key&text=%D0%A2%D0%B5%D0%BA%D1%81%D1%82&lang=ru-en
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1894)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1492)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:263)
+	at com.tf.translator.service.TranslatorServiceImpl.translateWord(TranslatorServiceImpl.java:73)
+	at com.tf.translator.service.TranslatorServiceImpl.lambda$null$0(TranslatorServiceImpl.java:42)
+	at java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:266)
+	at java.util.concurrent.FutureTask.run(FutureTask.java)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:266)
+	at java.util.concurrent.FutureTask.run(FutureTask.java)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2018-12-09 21:20:25 [http-nio-8080-exec-3] INFO :: Translated result: Текст
+2018-12-09 21:20:41 [http-nio-8080-exec-5] INFO :: Translate (ru => en): Текст
+2018-12-09 21:20:46 [pool-1-thread-3] ERROR:: Error in request: 
+java.io.IOException: Server returned HTTP response code: 400 for URL: https://translate.yandex.net/api/v1.5/tr.json/translate?new Key&text=%D0%A2%D0%B5%D0%BA%D1%81%D1%82&lang=ru-en
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1894)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1492)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:263)
+	at com.tf.translator.service.TranslatorServiceImpl.translateWord(TranslatorServiceImpl.java:73)
+	at com.tf.translator.service.TranslatorServiceImpl.lambda$null$0(TranslatorServiceImpl.java:42)
+	at java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:266)
+	at java.util.concurrent.FutureTask.run(FutureTask.java)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:266)
+	at java.util.concurrent.FutureTask.run(FutureTask.java)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2018-12-09 21:20:46 [http-nio-8080-exec-5] INFO :: Translated result: Текст
+2018-12-09 21:25:46 [background-preinit] INFO :: HV000001: Hibernate Validator 6.0.13.Final
+2018-12-09 21:25:47 [restartedMain] INFO :: Starting TranslatorApplication on DESKTOP-C63L1I2 with PID 7332 (D:\java\translator\target\classes started by Timur in D:\java\translator)
+2018-12-09 21:25:47 [restartedMain] INFO :: No active profile set, falling back to default profiles: default
+2018-12-09 21:25:47 [restartedMain] INFO :: Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2018-12-09 21:25:47 [restartedMain] INFO :: For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2018-12-09 21:25:49 [restartedMain] INFO :: Tomcat initialized with port(s): 8080 (http)
+2018-12-09 21:25:50 [restartedMain] INFO :: Root WebApplicationContext: initialization completed in 2564 ms
+2018-12-09 21:25:50 [restartedMain] INFO :: Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2018-12-09 21:25:50 [restartedMain] INFO :: Initializing ExecutorService 'applicationTaskExecutor'
+2018-12-09 21:25:50 [restartedMain] INFO :: LiveReload server is running on port 35729
+2018-12-09 21:25:51 [restartedMain] INFO :: Context refreshed
+2018-12-09 21:25:51 [restartedMain] INFO :: Found 1 custom documentation plugin(s)
+2018-12-09 21:25:51 [restartedMain] INFO :: Scanning for api listing references
+2018-12-09 21:25:51 [restartedMain] INFO :: Tomcat started on port(s): 8080 (http) with context path ''
+2018-12-09 21:25:51 [restartedMain] INFO :: Started TranslatorApplication in 4.816 seconds (JVM running for 6.702)
+2018-12-09 21:26:04 [http-nio-8080-exec-2] INFO :: Initializing Servlet 'dispatcherServlet'
+2018-12-09 21:26:04 [http-nio-8080-exec-2] INFO :: Completed initialization in 11 ms
+2018-12-09 21:26:04 [http-nio-8080-exec-2] INFO :: New key: new Key
+2018-12-09 21:26:06 [http-nio-8080-exec-1] INFO :: Translate (ru => en): null
+2018-12-09 21:26:10 [pool-1-thread-1] ERROR:: Error in request: 
+java.io.IOException: Server returned HTTP response code: 400 for URL: https://translate.yandex.net/api/v1.5/tr.json/translate?new Key&text=null&lang=ru-en
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1894)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1492)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:263)
+	at com.tf.translator.service.TranslatorServiceImpl.translateWord(TranslatorServiceImpl.java:78)
+	at com.tf.translator.service.TranslatorServiceImpl.lambda$null$0(TranslatorServiceImpl.java:47)
+	at java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:266)
+	at java.util.concurrent.FutureTask.run(FutureTask.java)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:266)
+	at java.util.concurrent.FutureTask.run(FutureTask.java)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2018-12-09 21:26:10 [http-nio-8080-exec-1] INFO :: Translated result: null
+2018-12-09 21:26:19 [http-nio-8080-exec-3] INFO :: New key: default
+2018-12-09 21:26:25 [http-nio-8080-exec-4] INFO :: Translate (ru => en): null
+2018-12-09 21:27:18 [background-preinit] INFO :: HV000001: Hibernate Validator 6.0.13.Final
+2018-12-09 21:27:19 [restartedMain] INFO :: Starting TranslatorApplication on DESKTOP-C63L1I2 with PID 1796 (D:\java\translator\target\classes started by Timur in D:\java\translator)
+2018-12-09 21:27:19 [restartedMain] INFO :: No active profile set, falling back to default profiles: default
+2018-12-09 21:27:19 [restartedMain] INFO :: Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2018-12-09 21:27:19 [restartedMain] INFO :: For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2018-12-09 21:27:21 [restartedMain] INFO :: Tomcat initialized with port(s): 8080 (http)
+2018-12-09 21:27:22 [restartedMain] INFO :: Root WebApplicationContext: initialization completed in 2981 ms
+2018-12-09 21:27:22 [restartedMain] INFO :: Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2018-12-09 21:27:23 [restartedMain] INFO :: Initializing ExecutorService 'applicationTaskExecutor'
+2018-12-09 21:27:23 [restartedMain] INFO :: LiveReload server is running on port 35729
+2018-12-09 21:27:23 [restartedMain] INFO :: Context refreshed
+2018-12-09 21:27:23 [restartedMain] INFO :: Found 1 custom documentation plugin(s)
+2018-12-09 21:27:23 [restartedMain] INFO :: Scanning for api listing references
+2018-12-09 21:27:23 [restartedMain] INFO :: Tomcat started on port(s): 8080 (http) with context path ''
+2018-12-09 21:27:23 [restartedMain] INFO :: Started TranslatorApplication in 5.33 seconds (JVM running for 6.832)
+2018-12-09 21:27:48 [http-nio-8080-exec-1] INFO :: Initializing Servlet 'dispatcherServlet'
+2018-12-09 21:27:48 [http-nio-8080-exec-1] INFO :: Completed initialization in 25 ms
+2018-12-09 21:27:48 [http-nio-8080-exec-1] INFO :: New key: new ke
+2018-12-09 21:27:51 [http-nio-8080-exec-2] INFO :: Translate (ru => en): null
+2018-12-09 21:27:54 [pool-1-thread-1] ERROR:: Error in request: 
+java.io.IOException: Server returned HTTP response code: 400 for URL: https://translate.yandex.net/api/v1.5/tr.json/translate?key=new ke&text=null&lang=ru-en
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1894)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1492)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:263)
+	at com.tf.translator.service.TranslatorServiceImpl.translateWord(TranslatorServiceImpl.java:78)
+	at com.tf.translator.service.TranslatorServiceImpl.lambda$null$0(TranslatorServiceImpl.java:47)
+	at java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:266)
+	at java.util.concurrent.FutureTask.run(FutureTask.java)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:266)
+	at java.util.concurrent.FutureTask.run(FutureTask.java)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2018-12-09 21:27:54 [http-nio-8080-exec-2] INFO :: Translated result: null
+2018-12-09 21:28:00 [http-nio-8080-exec-3] INFO :: New key: default
+2018-12-09 21:28:03 [http-nio-8080-exec-4] INFO :: Translate (ru => en): null
+2018-12-09 21:28:06 [http-nio-8080-exec-4] INFO :: Translated result: null
+2018-12-09 21:29:11 [http-nio-8080-exec-5] INFO :: Translate (ru => en): ";\n text=null;
+2018-12-09 21:29:33 [http-nio-8080-exec-5] INFO :: Translated result: ";\n text=null;
+2018-12-09 21:29:40 [http-nio-8080-exec-7] INFO :: Translate (ru => en): ";\ntext=null;
+2018-12-09 21:30:14 [http-nio-8080-exec-7] INFO :: Translated result: ";\ntext=null;
+2018-12-09 21:31:45 [Thread-15] INFO :: Shutting down ExecutorService 'applicationTaskExecutor'
+2018-12-09 21:31:46 [restartedMain] INFO :: Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2018-12-09 21:31:46 [restartedMain] INFO :: For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2018-12-09 21:31:46 [restartedMain] INFO :: Starting TranslatorApplication on DESKTOP-C63L1I2 with PID 1796 (started by Timur in D:\java\translator)
+2018-12-09 21:31:46 [restartedMain] INFO :: No active profile set, falling back to default profiles: default
+2018-12-09 21:31:47 [restartedMain] INFO :: Tomcat initialized with port(s): 8080 (http)
+2018-12-09 21:31:47 [restartedMain] INFO :: Root WebApplicationContext: initialization completed in 536 ms
+2018-12-09 21:31:47 [restartedMain] INFO :: Initializing ExecutorService 'applicationTaskExecutor'
+2018-12-09 21:31:47 [restartedMain] INFO :: LiveReload server is running on port 35729
+2018-12-09 21:31:47 [restartedMain] INFO :: Tomcat started on port(s): 8080 (http) with context path ''
+2018-12-09 21:31:47 [restartedMain] INFO :: Started TranslatorApplication in 0.832 seconds (JVM running for 270.361)
+2018-12-09 21:31:47 [restartedMain] INFO :: Condition evaluation unchanged
+2018-12-09 21:31:51 [Thread-25] INFO :: Shutting down ExecutorService 'applicationTaskExecutor'
+2018-12-09 21:31:52 [restartedMain] INFO :: Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2018-12-09 21:31:52 [restartedMain] INFO :: For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2018-12-09 21:31:52 [restartedMain] INFO :: Starting TranslatorApplication on DESKTOP-C63L1I2 with PID 1796 (D:\java\translator\target\classes started by Timur in D:\java\translator)
+2018-12-09 21:31:52 [restartedMain] INFO :: No active profile set, falling back to default profiles: default
+2018-12-09 21:31:52 [restartedMain] INFO :: Tomcat initialized with port(s): 8080 (http)
+2018-12-09 21:31:52 [restartedMain] INFO :: Root WebApplicationContext: initialization completed in 398 ms
+2018-12-09 21:31:52 [restartedMain] INFO :: Initializing ExecutorService 'applicationTaskExecutor'
+2018-12-09 21:31:52 [restartedMain] INFO :: LiveReload server is running on port 35729
+2018-12-09 21:31:52 [restartedMain] INFO :: Tomcat started on port(s): 8080 (http) with context path ''
+2018-12-09 21:31:52 [restartedMain] INFO :: Started TranslatorApplication in 0.581 seconds (JVM running for 275.75)
+2018-12-09 21:31:52 [restartedMain] INFO :: Condition evaluation unchanged
+2018-12-09 21:31:55 [Thread-31] INFO :: Shutting down ExecutorService 'applicationTaskExecutor'
+2018-12-09 21:31:55 [restartedMain] INFO :: Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2018-12-09 21:31:55 [restartedMain] INFO :: For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2018-12-09 21:31:55 [restartedMain] INFO :: Starting TranslatorApplication on DESKTOP-C63L1I2 with PID 1796 (D:\java\translator\target\classes started by Timur in D:\java\translator)
+2018-12-09 21:31:55 [restartedMain] INFO :: No active profile set, falling back to default profiles: default
+2018-12-09 21:31:56 [restartedMain] INFO :: Tomcat initialized with port(s): 8080 (http)
+2018-12-09 21:31:56 [restartedMain] INFO :: Root WebApplicationContext: initialization completed in 899 ms
+2018-12-09 21:31:56 [restartedMain] INFO :: Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2018-12-09 21:31:56 [restartedMain] INFO :: Initializing ExecutorService 'applicationTaskExecutor'
+2018-12-09 21:31:56 [restartedMain] INFO :: LiveReload server is running on port 35729
+2018-12-09 21:31:56 [restartedMain] INFO :: Context refreshed
+2018-12-09 21:31:56 [restartedMain] INFO :: Found 1 custom documentation plugin(s)
+2018-12-09 21:31:56 [restartedMain] INFO :: Scanning for api listing references
+2018-12-09 21:31:56 [restartedMain] INFO :: Tomcat started on port(s): 8080 (http) with context path ''
+2018-12-09 21:31:56 [restartedMain] INFO :: Started TranslatorApplication in 1.259 seconds (JVM running for 279.825)
+2018-12-09 21:31:56 [restartedMain] INFO :: Condition evaluation delta:
+
+
+==========================
+CONDITION EVALUATION DELTA
+==========================
+
+
+Positive matches:
+-----------------
+
+   Swagger2DocumentationConfiguration matched:
+      - @ConditionalOnWebApplication (required) found 'session' scope (OnWebApplicationCondition)
+
+
+Negative matches:
+-----------------
+
+    None
+
+
+Exclusions:
+-----------
+
+    None
+
+
+Unconditional classes:
+----------------------
+
+    None
+
+
+
+2018-12-09 21:31:57 [main] INFO :: Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.tf.translator.TranslatorApplicationTests], using SpringBootContextLoader
+2018-12-09 21:31:57 [main] INFO :: Could not detect default resource locations for test class [com.tf.translator.TranslatorApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2018-12-09 21:31:57 [main] INFO :: Could not detect default configuration classes for test class [com.tf.translator.TranslatorApplicationTests]: TranslatorApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2018-12-09 21:31:57 [main] INFO :: Found @SpringBootConfiguration com.tf.translator.TranslatorApplication for test class com.tf.translator.TranslatorApplicationTests
+2018-12-09 21:31:57 [main] INFO :: Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2018-12-09 21:31:57 [main] INFO :: Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@16d04d3d, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@49ec71f8, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@1d2adfbe, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@36902638, org.springframework.test.context.support.DirtiesContextTestExecutionListener@223d2c72, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@8f4ea7c, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@436813f3, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@74fe5c40, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@3febb011, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@10e31a9a]
+2018-12-09 21:31:58 [background-preinit] INFO :: HV000001: Hibernate Validator 6.0.13.Final
+2018-12-09 21:31:58 [main] INFO :: Starting TranslatorApplicationTests on DESKTOP-C63L1I2 with PID 4956 (started by Timur in D:\java\translator)
+2018-12-09 21:31:58 [main] INFO :: No active profile set, falling back to default profiles: default
+2018-12-09 21:32:01 [main] INFO :: Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2018-12-09 21:32:02 [main] INFO :: Initializing ExecutorService 'applicationTaskExecutor'
+2018-12-09 21:32:02 [main] INFO :: Context refreshed
+2018-12-09 21:32:02 [main] INFO :: Found 1 custom documentation plugin(s)
+2018-12-09 21:32:02 [main] INFO :: Scanning for api listing references
+2018-12-09 21:32:02 [main] INFO :: Started TranslatorApplicationTests in 4.923 seconds (JVM running for 6.059)
+2018-12-09 21:32:03 [Thread-3] INFO :: Shutting down ExecutorService 'applicationTaskExecutor'
+2018-12-09 21:35:10 [Thread-37] INFO :: Shutting down ExecutorService 'applicationTaskExecutor'
+2018-12-09 21:35:11 [restartedMain] INFO :: Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2018-12-09 21:35:11 [restartedMain] INFO :: For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2018-12-09 21:35:11 [restartedMain] INFO :: Starting TranslatorApplication on DESKTOP-C63L1I2 with PID 1796 (D:\java\translator\target\classes started by Timur in D:\java\translator)
+2018-12-09 21:35:11 [restartedMain] INFO :: No active profile set, falling back to default profiles: default
+2018-12-09 21:35:11 [restartedMain] INFO :: Tomcat initialized with port(s): 8080 (http)
+2018-12-09 21:35:11 [restartedMain] INFO :: Root WebApplicationContext: initialization completed in 536 ms
+2018-12-09 21:35:12 [restartedMain] INFO :: Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2018-12-09 21:35:12 [restartedMain] INFO :: Initializing ExecutorService 'applicationTaskExecutor'
+2018-12-09 21:35:12 [restartedMain] INFO :: LiveReload server is running on port 35729
+2018-12-09 21:35:12 [restartedMain] INFO :: Context refreshed
+2018-12-09 21:35:12 [restartedMain] INFO :: Found 1 custom documentation plugin(s)
+2018-12-09 21:35:12 [restartedMain] INFO :: Scanning for api listing references
+2018-12-09 21:35:12 [restartedMain] INFO :: Tomcat started on port(s): 8080 (http) with context path ''
+2018-12-09 21:35:12 [restartedMain] INFO :: Started TranslatorApplication in 1.089 seconds (JVM running for 475.506)
+2018-12-09 21:35:12 [restartedMain] INFO :: Condition evaluation unchanged
+2018-12-09 21:35:12 [main] INFO :: Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.tf.translator.TranslatorApplicationTests], using SpringBootContextLoader
+2018-12-09 21:35:12 [main] INFO :: Could not detect default resource locations for test class [com.tf.translator.TranslatorApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2018-12-09 21:35:12 [main] INFO :: Could not detect default configuration classes for test class [com.tf.translator.TranslatorApplicationTests]: TranslatorApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2018-12-09 21:35:12 [main] INFO :: Found @SpringBootConfiguration com.tf.translator.TranslatorApplication for test class com.tf.translator.TranslatorApplicationTests
+2018-12-09 21:35:12 [main] INFO :: Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2018-12-09 21:35:12 [main] INFO :: Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@1d2adfbe, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@36902638, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@223d2c72, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@8f4ea7c, org.springframework.test.context.support.DirtiesContextTestExecutionListener@436813f3, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@74fe5c40, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@3febb011, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@10e31a9a, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@131774fe, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@158d2680]
+2018-12-09 21:35:13 [background-preinit] INFO :: HV000001: Hibernate Validator 6.0.13.Final
+2018-12-09 21:35:13 [main] INFO :: Starting TranslatorApplicationTests on DESKTOP-C63L1I2 with PID 9588 (started by Timur in D:\java\translator)
+2018-12-09 21:35:13 [main] INFO :: No active profile set, falling back to default profiles: default
+2018-12-09 21:35:16 [main] INFO :: Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2018-12-09 21:35:16 [main] INFO :: Initializing ExecutorService 'applicationTaskExecutor'
+2018-12-09 21:35:17 [main] INFO :: Context refreshed
+2018-12-09 21:35:17 [main] INFO :: Found 1 custom documentation plugin(s)
+2018-12-09 21:35:17 [main] INFO :: Scanning for api listing references
+2018-12-09 21:35:17 [main] INFO :: Started TranslatorApplicationTests in 4.812 seconds (JVM running for 5.983)
+2018-12-09 21:35:18 [Thread-3] INFO :: Shutting down ExecutorService 'applicationTaskExecutor'
+2018-12-09 21:39:47 [Thread-43] INFO :: Shutting down ExecutorService 'applicationTaskExecutor'
+2018-12-09 21:39:47 [restartedMain] INFO :: Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2018-12-09 21:39:47 [restartedMain] INFO :: For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2018-12-09 21:39:47 [restartedMain] INFO :: Starting TranslatorApplication on DESKTOP-C63L1I2 with PID 1796 (D:\java\translator\target\classes started by Timur in D:\java\translator)
+2018-12-09 21:39:47 [restartedMain] INFO :: No active profile set, falling back to default profiles: default
+2018-12-09 21:39:48 [restartedMain] INFO :: Tomcat initialized with port(s): 8080 (http)
+2018-12-09 21:39:48 [restartedMain] INFO :: Root WebApplicationContext: initialization completed in 846 ms
+2018-12-09 21:39:48 [restartedMain] INFO :: Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2018-12-09 21:39:49 [main] INFO :: Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.tf.translator.TranslatorApplicationTests], using SpringBootContextLoader
+2018-12-09 21:39:49 [main] INFO :: Could not detect default resource locations for test class [com.tf.translator.TranslatorApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2018-12-09 21:39:49 [main] INFO :: Could not detect default configuration classes for test class [com.tf.translator.TranslatorApplicationTests]: TranslatorApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2018-12-09 21:39:49 [main] INFO :: Found @SpringBootConfiguration com.tf.translator.TranslatorApplication for test class com.tf.translator.TranslatorApplicationTests
+2018-12-09 21:39:49 [main] INFO :: Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2018-12-09 21:39:49 [main] INFO :: Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@49ec71f8, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@1d2adfbe, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@36902638, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@223d2c72, org.springframework.test.context.support.DirtiesContextTestExecutionListener@8f4ea7c, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@436813f3, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@74fe5c40, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@3febb011, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@10e31a9a, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@131774fe]
+2018-12-09 21:39:49 [background-preinit] INFO :: HV000001: Hibernate Validator 6.0.13.Final
+2018-12-09 21:39:50 [main] INFO :: Starting TranslatorApplicationTests on DESKTOP-C63L1I2 with PID 6544 (started by Timur in D:\java\translator)
+2018-12-09 21:39:50 [main] INFO :: No active profile set, falling back to default profiles: default
+2018-12-09 21:39:54 [main] INFO :: Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2018-12-09 21:39:55 [main] INFO :: Initializing ExecutorService 'applicationTaskExecutor'
+2018-12-09 21:39:55 [main] INFO :: Context refreshed
+2018-12-09 21:39:55 [main] INFO :: Found 1 custom documentation plugin(s)
+2018-12-09 21:39:55 [main] INFO :: Scanning for api listing references
+2018-12-09 21:39:55 [main] INFO :: Started TranslatorApplicationTests in 6.405 seconds (JVM running for 7.854)
+2018-12-09 21:39:56 [Thread-3] INFO :: Shutting down ExecutorService 'applicationTaskExecutor'
+2018-12-09 21:40:14 [main] INFO :: Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.tf.translator.TranslatorApplicationTests], using SpringBootContextLoader
+2018-12-09 21:40:14 [main] INFO :: Could not detect default resource locations for test class [com.tf.translator.TranslatorApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2018-12-09 21:40:14 [main] INFO :: Could not detect default configuration classes for test class [com.tf.translator.TranslatorApplicationTests]: TranslatorApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2018-12-09 21:40:14 [main] INFO :: Found @SpringBootConfiguration com.tf.translator.TranslatorApplication for test class com.tf.translator.TranslatorApplicationTests
+2018-12-09 21:40:14 [main] INFO :: Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2018-12-09 21:40:14 [main] INFO :: Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@16d04d3d, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@49ec71f8, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@1d2adfbe, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@36902638, org.springframework.test.context.support.DirtiesContextTestExecutionListener@223d2c72, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@8f4ea7c, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@436813f3, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@74fe5c40, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@3febb011, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@10e31a9a]
+2018-12-09 21:40:14 [background-preinit] INFO :: HV000001: Hibernate Validator 6.0.13.Final
+2018-12-09 21:40:15 [main] INFO :: Starting TranslatorApplicationTests on DESKTOP-C63L1I2 with PID 3600 (started by Timur in D:\java\translator)
+2018-12-09 21:40:15 [main] INFO :: No active profile set, falling back to default profiles: default
+2018-12-09 21:40:18 [main] INFO :: Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2018-12-09 21:40:18 [main] INFO :: Initializing ExecutorService 'applicationTaskExecutor'
+2018-12-09 21:40:19 [main] INFO :: Context refreshed
+2018-12-09 21:40:19 [main] INFO :: Found 1 custom documentation plugin(s)
+2018-12-09 21:40:19 [main] INFO :: Scanning for api listing references
+2018-12-09 21:40:19 [main] INFO :: Started TranslatorApplicationTests in 4.827 seconds (JVM running for 6.025)
+2018-12-09 21:40:19 [Thread-3] INFO :: Shutting down ExecutorService 'applicationTaskExecutor'
+2018-12-09 21:45:43 [main] INFO :: Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.tf.translator.TranslatorApplicationTests], using SpringBootContextLoader
+2018-12-09 21:45:43 [main] INFO :: Could not detect default resource locations for test class [com.tf.translator.TranslatorApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2018-12-09 21:45:43 [main] INFO :: Could not detect default configuration classes for test class [com.tf.translator.TranslatorApplicationTests]: TranslatorApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2018-12-09 21:45:43 [main] INFO :: Found @SpringBootConfiguration com.tf.translator.TranslatorApplication for test class com.tf.translator.TranslatorApplicationTests
+2018-12-09 21:45:43 [main] INFO :: Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2018-12-09 21:45:43 [main] INFO :: Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@49ec71f8, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@1d2adfbe, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@36902638, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@223d2c72, org.springframework.test.context.support.DirtiesContextTestExecutionListener@8f4ea7c, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@436813f3, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@74fe5c40, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@3febb011, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@10e31a9a, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@131774fe]
+2018-12-09 21:45:44 [background-preinit] INFO :: HV000001: Hibernate Validator 6.0.13.Final
+2018-12-09 21:45:44 [main] INFO :: Starting TranslatorApplicationTests on DESKTOP-C63L1I2 with PID 8304 (started by Timur in D:\java\translator)
+2018-12-09 21:45:44 [main] INFO :: No active profile set, falling back to default profiles: default
+2018-12-09 21:45:45 [main] INFO :: Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.tf.translator.TranslatorApplicationTests], using SpringBootContextLoader
+2018-12-09 21:45:45 [main] INFO :: Could not detect default resource locations for test class [com.tf.translator.TranslatorApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2018-12-09 21:45:45 [main] INFO :: Could not detect default configuration classes for test class [com.tf.translator.TranslatorApplicationTests]: TranslatorApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2018-12-09 21:45:45 [main] INFO :: Found @SpringBootConfiguration com.tf.translator.TranslatorApplication for test class com.tf.translator.TranslatorApplicationTests
+2018-12-09 21:45:46 [main] INFO :: Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2018-12-09 21:45:46 [main] INFO :: Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@8f4ea7c, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@436813f3, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@74fe5c40, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@3febb011, org.springframework.test.context.support.DirtiesContextTestExecutionListener@10e31a9a, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@131774fe, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@158d2680, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@77847718, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@7f3b84b8, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@57a3af25]
+2018-12-09 21:45:46 [background-preinit] INFO :: HV000001: Hibernate Validator 6.0.13.Final
+2018-12-09 21:45:47 [main] INFO :: Starting TranslatorApplicationTests on DESKTOP-C63L1I2 with PID 10584 (started by Timur in D:\java\translator)
+2018-12-09 21:45:47 [main] INFO :: No active profile set, falling back to default profiles: default
+2018-12-09 21:45:50 [main] INFO :: Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2018-12-09 21:45:52 [main] INFO :: Initializing ExecutorService 'applicationTaskExecutor'
+2018-12-09 21:45:52 [main] INFO :: Context refreshed
+2018-12-09 21:45:52 [main] INFO :: Found 1 custom documentation plugin(s)
+2018-12-09 21:45:52 [main] INFO :: Scanning for api listing references
+2018-12-09 21:45:52 [main] INFO :: Started TranslatorApplicationTests in 9.22 seconds (JVM running for 10.951)
+2018-12-09 21:45:53 [Thread-3] INFO :: Shutting down ExecutorService 'applicationTaskExecutor'
+2018-12-09 21:47:20 [main] INFO :: Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.tf.translator.TranslatorApplicationTests], using SpringBootContextLoader
+2018-12-09 21:47:20 [main] INFO :: Could not detect default resource locations for test class [com.tf.translator.TranslatorApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2018-12-09 21:47:20 [main] INFO :: Could not detect default configuration classes for test class [com.tf.translator.TranslatorApplicationTests]: TranslatorApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2018-12-09 21:47:21 [main] INFO :: Found @SpringBootConfiguration com.tf.translator.TranslatorApplication for test class com.tf.translator.TranslatorApplicationTests
+2018-12-09 21:47:21 [main] INFO :: Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2018-12-09 21:47:21 [main] INFO :: Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@16d04d3d, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@49ec71f8, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@1d2adfbe, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@36902638, org.springframework.test.context.support.DirtiesContextTestExecutionListener@223d2c72, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@8f4ea7c, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@436813f3, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@74fe5c40, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@3febb011, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@10e31a9a]
+2018-12-09 21:47:21 [background-preinit] INFO :: HV000001: Hibernate Validator 6.0.13.Final
+2018-12-09 21:47:21 [main] INFO :: Starting TranslatorApplicationTests on DESKTOP-C63L1I2 with PID 32 (started by Timur in D:\java\translator)
+2018-12-09 21:47:21 [main] INFO :: No active profile set, falling back to default profiles: default
+2018-12-09 21:47:24 [main] INFO :: Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2018-12-09 21:47:25 [main] INFO :: Initializing ExecutorService 'applicationTaskExecutor'
+2018-12-09 21:47:25 [main] INFO :: Context refreshed
+2018-12-09 21:47:25 [main] INFO :: Found 1 custom documentation plugin(s)
+2018-12-09 21:47:25 [main] INFO :: Scanning for api listing references
+2018-12-09 21:47:26 [main] INFO :: Started TranslatorApplicationTests in 4.794 seconds (JVM running for 5.904)
+2018-12-09 21:47:26 [Thread-3] INFO :: Shutting down ExecutorService 'applicationTaskExecutor'
+2018-12-09 21:54:27 [main] INFO :: Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.tf.translator.TranslatorApplicationTests], using SpringBootContextLoader
+2018-12-09 21:54:27 [main] INFO :: Could not detect default resource locations for test class [com.tf.translator.TranslatorApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2018-12-09 21:54:27 [main] INFO :: Could not detect default configuration classes for test class [com.tf.translator.TranslatorApplicationTests]: TranslatorApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2018-12-09 21:54:27 [main] INFO :: Found @SpringBootConfiguration com.tf.translator.TranslatorApplication for test class com.tf.translator.TranslatorApplicationTests
+2018-12-09 21:54:27 [main] INFO :: Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2018-12-09 21:54:27 [main] INFO :: Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@16d04d3d, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@49ec71f8, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@1d2adfbe, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@36902638, org.springframework.test.context.support.DirtiesContextTestExecutionListener@223d2c72, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@8f4ea7c, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@436813f3, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@74fe5c40, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@3febb011, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@10e31a9a]
+2018-12-09 21:54:28 [background-preinit] INFO :: HV000001: Hibernate Validator 6.0.13.Final
+2018-12-09 21:54:28 [main] INFO :: Starting TranslatorApplicationTests on DESKTOP-C63L1I2 with PID 10028 (started by Timur in D:\java\translator)
+2018-12-09 21:54:28 [main] INFO :: No active profile set, falling back to default profiles: default
+2018-12-09 21:54:31 [main] INFO :: Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2018-12-09 21:54:32 [main] INFO :: Initializing ExecutorService 'applicationTaskExecutor'
+2018-12-09 21:54:32 [main] INFO :: Context refreshed
+2018-12-09 21:54:32 [main] INFO :: Found 1 custom documentation plugin(s)
+2018-12-09 21:54:32 [main] INFO :: Scanning for api listing references
+2018-12-09 21:54:32 [main] INFO :: Started TranslatorApplicationTests in 4.919 seconds (JVM running for 5.979)
+2018-12-09 21:54:33 [Thread-3] INFO :: Shutting down ExecutorService 'applicationTaskExecutor'
+2018-12-09 21:56:59 [main] INFO :: Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.tf.translator.TranslatorApplicationTests], using SpringBootContextLoader
+2018-12-09 21:56:59 [main] INFO :: Could not detect default resource locations for test class [com.tf.translator.TranslatorApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2018-12-09 21:56:59 [main] INFO :: Could not detect default configuration classes for test class [com.tf.translator.TranslatorApplicationTests]: TranslatorApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2018-12-09 21:56:59 [main] INFO :: Found @SpringBootConfiguration com.tf.translator.TranslatorApplication for test class com.tf.translator.TranslatorApplicationTests
+2018-12-09 21:56:59 [main] INFO :: Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2018-12-09 21:56:59 [main] INFO :: Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@16d04d3d, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@49ec71f8, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@1d2adfbe, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@36902638, org.springframework.test.context.support.DirtiesContextTestExecutionListener@223d2c72, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@8f4ea7c, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@436813f3, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@74fe5c40, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@3febb011, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@10e31a9a]
+2018-12-09 21:57:00 [background-preinit] INFO :: HV000001: Hibernate Validator 6.0.13.Final
+2018-12-09 21:57:00 [main] INFO :: Starting TranslatorApplicationTests on DESKTOP-C63L1I2 with PID 5136 (started by Timur in D:\java\translator)
+2018-12-09 21:57:00 [main] INFO :: No active profile set, falling back to default profiles: default
+2018-12-09 21:57:03 [main] INFO :: Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2018-12-09 21:57:03 [main] INFO :: Initializing ExecutorService 'applicationTaskExecutor'
+2018-12-09 21:57:04 [main] INFO :: Context refreshed
+2018-12-09 21:57:04 [main] INFO :: Found 1 custom documentation plugin(s)
+2018-12-09 21:57:04 [main] INFO :: Scanning for api listing references
+2018-12-09 21:57:04 [main] INFO :: Started TranslatorApplicationTests in 4.703 seconds (JVM running for 5.758)
+2018-12-09 21:57:05 [Thread-3] INFO :: Shutting down ExecutorService 'applicationTaskExecutor'
