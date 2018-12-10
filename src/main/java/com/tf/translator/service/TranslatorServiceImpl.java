@@ -40,7 +40,7 @@ public class TranslatorServiceImpl implements TranslatorService {
     @Override
     public String translate(String input, String from, String to) {
         StringBuilder stringBuffer = new StringBuilder();
-
+//      because "output results don't matter" using ExecutorCompletionService, otherwise (in case of order impotance) use ExecutorService
         final CompletionService<String> completionService = new ExecutorCompletionService<>(executor);
 
         List<Future<String>> futures = Arrays.stream(input.split(" "))
